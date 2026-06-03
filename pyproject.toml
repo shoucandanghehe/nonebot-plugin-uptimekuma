@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-uptimekuma"
-version = "0.0.0"
+version = "0.1.0"
 description = "Monitor NoneBot and adapter account connections with Uptime Kuma Push Monitor"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -82,7 +82,7 @@ lint.flake8-quotes = { inline-quotes = "single", multiline-quotes = "double" }
 lint.per-file-ignores = { "tests/**/*.py" = [ "E402", "PLC0415", "PLR2004", "S101", "SLF001" ] }
 
 [tool.bumpversion]
-current_version = "0.0.0"
+current_version = "0.1.0"
 tag = true
 commit_args = "-S"
 sign_tags = true
